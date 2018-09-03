@@ -55,10 +55,5 @@ public class DNAMaxNucleotide {
 		return max;
 	}
 
-	public static void main(String[] args) {
-    	  		String[] strands = {"g", "gg", "ggg", "gggg"};
-    	  		String nuc = "c";
-    	  		DNAMaxNucleotide asdf= new DNAMaxNucleotide();
-    	  		System.out.print(asdf.max(strands, nuc));
-      }
+	
    }

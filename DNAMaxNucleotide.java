@@ -54,6 +54,6 @@ public class DNAMaxNucleotide {
     	  		}
 		return max;
 	}
-
+     //testing
 	
    }

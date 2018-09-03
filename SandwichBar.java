@@ -35,12 +35,5 @@ public class SandwichBar{
 		return -1;
 	
 	}
-	public static void main(String[] args) {
-		String[] available = { "foo", "bar", "baz", "gazonk", "quux", "bat", "xyzzy",
-				  "shme", "hukarz", "grault", "waldo", "bleh" };
-		String[] orders = { "kalatehas", "spam eggs", "needle haystack", "bleh blarg", "plugh", 
-		  "the best sandwich in the universe" };
-		SandwichBar x = new SandwichBar();
-		System.out.print(x.whichOrder(available, orders));
-	}
+	
 }

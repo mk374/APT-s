@@ -27,17 +27,5 @@ public class Totality {
         return sum;
     }
     
-    public static void main(String[] args) {
-    		int [] a = {1,2,3,4,5};
-    		Totality foo = new Totality();
-    		System.out.println(foo.sum(a, "all"));
-    		
-    		ArrayList<String> x = new ArrayList<String>();
-    		x.add("purple");
-    		System.out.println(x);
-    		HashSet<String> y = new HashSet<String>(x);
-    		System.out.print(y);
-    		
-    		
-    }
+    
 }

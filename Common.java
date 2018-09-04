@@ -7,12 +7,8 @@ public class Common {
     		List<String> aList = new ArrayList<>();
     		List<String> bList = new ArrayList<>();
     		for (int i = 0; i < a.length(); i++) {
-    			//if(!aList.contains(a.substring(i, i+1))) {
-    				aList.add(a.substring(i,i+1));
-    			//}
-    			//if(!bList.contains(b.substring(i, i+1))) {
-    				bList.add(b.substring(i,i+1));
-    			//}
+    			aList.add(a.substring(i,i+1));
+    			bList.add(b.substring(i,i+1));
     		}
     		
     		int totalCount = 0;

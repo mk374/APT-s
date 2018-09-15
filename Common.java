@@ -3,6 +3,7 @@ import java.util.List;
 
 public class Common {
     public int count (String a, String b) {
+    		
     		// Lists of unique characters
     		List<String> aList = new ArrayList<>();
     		List<String> bList = new ArrayList<>();
